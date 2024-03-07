@@ -17,8 +17,8 @@ class YellowAutomore {
         if ($this->yellow->page->get("layout") === "blog-start") {
             $length = $this->yellow->system->get("automoreLength");
 
-            if (strlen($text) >= $length) {
-                $text = substr($text, 0, $length) . "...\n";
+            if (strlenu($text) >= $length) {
+                $text = substru($text, 0, $length) . "...\n";
                 $text .= "<p><small><a href=\"".$page->getLocation(true)."\">".$this->yellow->language->getTextHtml("blogMore")."</small></a>";
             }
 
