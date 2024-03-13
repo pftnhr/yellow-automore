@@ -19,7 +19,7 @@ class YellowAutomore {
 
             if (strlenu($text) >= $length) {
                 $text = substru($text, 0, $length) . "...\n";
-                $text .= "<p><small><a href=\"".$page->getLocation(true)."\">".$this->yellow->language->getTextHtml("blogMore")."</small></a>";
+                $text .= "<p><small><a href=\"".$page->getLocation(true)."\">".$this->yellow->language->getTextHtml("blogMore")."</small></a></p>";
             }
 
             $output = $text;
