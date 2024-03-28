@@ -18,7 +18,7 @@ class YellowAutomore {
             $length = $this->yellow->system->get("automoreLength");
 
             if (strlenu($text) >= $length) {
-                $text = substru($text, 0, $length) . "...\n";
+                $text = substru(strip_tags($text), 0, $length) . "...\n";
                 $text .= "<p><small><a href=\"".$page->getLocation(true)."\">".$this->yellow->language->getTextHtml("blogMore")."</small></a></p>";
             }
 
