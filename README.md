@@ -1,4 +1,4 @@
-# Automore 0.8.15
+# Automore 0.9.1
 
 Adds a read-more link automatically to your posts.
 
