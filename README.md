@@ -23,3 +23,4 @@ Many thanks to Discord. After I posted a problem in the Datenstrom channel, I ca
 ## Developer
 
 Robert Pfotenhauer. [Get help](https://datenstrom.se/yellow/help/).
+ 
